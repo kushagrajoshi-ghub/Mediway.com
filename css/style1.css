@@ -1,0 +1,364 @@
+.btn1 {
+    width: 80px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #42c9ff;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 10px 10px 10px 10px;
+
+    color: white;
+    width: 100px;
+    transition: ease all .5s;
+
+}
+
+.btn1:hover {
+    background-color: gainsboro;
+    color: darkcyan;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    text-decoration-color: black;
+    border-radius: 0px 3px 0px 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-list {
+    margin-left: 5px;
+    padding-left: -80px;
+    float: left;
+
+}
+
+.btn-ol-left {
+    width: 180px;
+    height: 392px;
+    background-color: #f0f0f0;
+    margin-left: 5px;
+    border: 1px black solid;
+    overflow-y: scroll;
+    float: left;
+
+}
+
+/* Parent Selector :  type sel/id/class .class/idselector/type  */
+.btn-ol-left ol {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+
+}
+
+.btn-ol-left li {
+    text-align: left;
+    line-height: 35px;
+    background-color: #42c9ff;
+    color: wheat;
+    text-align: center;
+
+    /*border-bottom: 2px black dotted;*/
+    margin-bottom: 2px black solid;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -40px;
+    border-bottom: 1px darkcyan solid;
+}
+
+.btn-ol-left li:hover {
+    background-color: #ccffd9;
+    color: slategrey;
+}
+
+.btn-right {
+    float: left;
+    height: 300;
+    width: 330px;
+}
+
+.pic {
+    width: 1050px;
+    height: 390px;
+    float: left;
+    margin-left: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: mediumspringgreen;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar:hover {
+    background-color: aquamarine;
+    border-radius: 7px;
+}
+
+#places1 {
+    width: 300px;
+    height: 210px;
+    background-color: gray;
+    background-image: url(../pictures/JK-Tourism.jpg);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places2 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/goa.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places3 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/rajasthan.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places4 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/kerala.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places5 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/Ladakh.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places6 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/kochi.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places7 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/meghalaya.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places8 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/Gangtok.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places9 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/arunachal%20pradesh.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places10 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/agra.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places11 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/gujrat.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#places12 {
+    width: 300px;
+    height: 210px;
+    ;
+    background-color: gray;
+    background-image: url(../pictures/gulmarg.jfif);
+    background-size: contain;
+    border-bottom: 2px gray solid;
+    float: left;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    border: 1px black solid;
+    float: right;
+    margin: 5px 5px 10px;
+    background-image: url(../devweb/pics/email.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    transition: ease all .4s;
+
+
+}
+
+#icon2 {
+    background-image: url(../devweb/pics/fb.png);
+}
+#icon3 {
+    background-image: url(../devweb/pics/twit.jpg);}
+#icon4 {
+    background-image: url(../devweb/pics/whatsapp.webp);}
+.icon1:hover {
+    transform: rotate(270deg);
+    transition: ease all .7s;
+}
+.mob{
+    
+	color:cadetblue;
+	font-size: 20px;
+	float:left;
+	margin-left: 5px;
+	margin-top: 10px;
+	background-color: lightcyan;
+	padding: 5px;
+	box-shadow: 5px 4px 1px gray;
+
+}
+.place{
+    transition: ease all .2s;
+}
+.place:hover{
+    background-color: beige;
+    color: coral;
+    border-left:2px #f0f0f0 solid;
+    border-bottom: 2px #f0f0f0 solid;
+}
+#info{
+    width: 80%;
+    height: 200px;
+    float: left;
+    text-align: justify-all;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.picp{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: aquamarine;
+    background-image: url(../pictures/mypic.jpg);
+}
+.picp:hover{
+    background-position: left;
+    transition: ease all .6s;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.heading{
+    width:100%;
+    height: 30px;
+    background-color: #f0f0f0;
+    text-align: justify-all;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: -50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.my{
+    font-size: 20px;
+    float: left;
+    color: black;
+    margin-left: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+.my:hover{
+    background-position: left;
+    transition: ease all 1s;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5%;
+}
+#photo{
+    float: left;
+}

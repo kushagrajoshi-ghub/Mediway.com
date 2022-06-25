@@ -1,0 +1,54 @@
+#info{
+    width: 80%;
+    height: 200px;
+    float: left;
+    text-align: justify-all;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.picp{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: aquamarine;
+    background-image: url(../pictures/mypic.jpg);
+}
+.picp:hover{
+    background-position: left;
+    transition: ease all .6s;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.heading{
+    width:100%;
+    height: 30px;
+    background-color: #f0f0f0;
+    text-align: justify-all;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: -50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.my{
+    font-size: 20px;
+    float: left;
+    color: black;
+    margin-left: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+.my:hover{
+    background-position: left;
+    transition: ease all 1s;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5%;
+}
+#photo{
+    float: left;
+}

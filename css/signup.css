@@ -1,0 +1,101 @@
+body{
+    background-color: #f0f0f0;
+    
+}
+#outer{
+	width:400px; height:420px;
+	background-color: white;
+	margin: auto;
+	box-shadow: 0px 0px 15px 5px gray;
+	margin-top: 50px;
+	padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+
+
+    display: none;
+    position: absolute;
+    top: 0px;
+
+}
+#close{
+	width: 25px; height: 25px;;
+	background-image: url(/pictures/closeico.png);
+	background-size: contain;
+	float: right;
+}
+img{
+	width: 100px; height: 100px;;
+	border: 1px black solid;
+	border-radius: 70%;
+	padding: 5px;
+}
+label{
+	font-family: sans-serif
+}
+.id-pic{
+    background-image: url(../devweb/pics/user.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+input[type="text"],input[type="password"],input[type="number"]{
+	width: 90%;
+	height: 35px;
+	font-size: 20px;
+	color:black;
+	text-align: center;
+	margin: 0px;;
+	outline: none;
+	border: 0px;
+	border-bottom:2px black solid;
+}
+input[type="text"]:focus{
+/*background-color: gainsboro;*/
+/*	border:1px red solid;*/
+		border-bottom:1px grey solid;
+	
+
+/*	height: 37px;*/
+/*box-sizing: border-box;*/
+
+}
+input[type="number"]:focus{
+background-color: gainsboro;
+/*	border:1px red solid;*/
+		border-bottom:1px grey solid;
+	
+
+/*	height: 37px;*/
+/*box-sizing: border-box;*/
+
+}
+input[type="password"]:focus{
+	background-color: gainsboro;
+	border-bottom:1px black solid;
+	height: 37px;
+/*box-sizing: border-box;*/
+
+}
+/*
+.eye{
+	border:1px gray solid;
+	line-height: 40px;
+	margin-left: -4px;
+		border-left:0px black solid;
+
+}
+*/
+
+.btn{
+	width: 100px;;
+	padding: 10px;
+	background-color:cornflowerblue;
+	color: white;
+	margin: auto;
+	margin-top: 20px;;
+	cursor: pointer;
+    transition: ease all .2s;
+}
+.btn:active{
+	transform: translate(3px,3px);
+    box-shadow: 2px 2px 2px 5px grey;
+}
